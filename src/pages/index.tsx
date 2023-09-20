@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Button from '@/components/Button';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <main>
         <h1>Hello Google Drive</h1>
+        <Button style="btn-primary" title="Sing Up"/>
       </main>
     </>
   );
